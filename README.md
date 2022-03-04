@@ -22,6 +22,18 @@ rm include/dxgi*
 cp win32metadata/generation/WinSDK/RecompiledIdlHeaders/shared/rpcndr.h include/
 ```
 
+`rpcndr.h` has a single `#include "rpcndr_hack.h"` line applied which adds a few missing defines.
+
+## Libraries
+
+`lib/` contains runtime libraries from the MinGW-w64 project, namely:
+
+```sh
+cp /mnt/c/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/lib/libdxgi.a lib/
+cp /mnt/c/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/lib/libdxguid.a lib/
+```
+
+
 ## LICENSE
 
 This repository only distributes non-copyleft, permissively licensed files.
