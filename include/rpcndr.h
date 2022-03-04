@@ -32,6 +32,8 @@ Abstract:
 #ifndef __RPCNDR_H__
 #define __RPCNDR_H__
 
+#include "rpcndr_hack.h"
+
 #if _MSC_VER > 1000
 #pragma once
 #endif
