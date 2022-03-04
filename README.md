@@ -29,8 +29,8 @@ cp win32metadata/generation/WinSDK/RecompiledIdlHeaders/shared/rpcndr.h include/
 `lib/` contains runtime libraries from the MinGW-w64 project, namely:
 
 ```sh
-cp /mnt/c/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/lib/libdxgi.a lib/
-cp /mnt/c/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/lib/libdxguid.a lib/
+cp /mnt/c/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/lib/libdxgi.a lib/dxgi.lib
+cp /mnt/c/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/lib/libdxguid.a lib/dxguid.lib
 ```
 
 
